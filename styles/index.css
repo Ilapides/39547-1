@@ -26,3 +26,27 @@ a{
     text-decoration: none;
     color: rgb(228, 239, 240);
 }
+
+.image-section{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.image-section img{
+    width: 960px;
+    height: 540px;
+}
+
+.main-container{
+    margin-left: 500px;
+    margin-right: 500px;
+
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: black;
+}
