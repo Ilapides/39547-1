@@ -18,9 +18,48 @@
                 <input type="text" class="standard-text-input" name="your-name" placeholder="(Optional)"><br>
 
                 <label class = "standard-label" for="email">Your email address:</label><br>
-                <input type="text" class="standard-text-input" name="email" ><br>
+                <input type="text" class="standard-text-input" name="email" placeholder="(Optional)"><br>
 
-                <input type="submit" value="Submit">
+                <label class = "standard-label" for="mailing-address">Mailing address:</label><br>
+                <input type="text" class="standard-text-input" name="mailing-address" placeholder="(Optional)"><br>
+
+                <label class = "standard-label" for="city">City:</label><br>
+                <input type="text" class="standard-text-input" name="city" placeholder="(Optional)"><br>
+
+                <div class = "secondary-info">
+                    <div class = "secondary-unit">
+                        <label class = "secondary-label" for="state">State:</label><br>
+                        <input type="text" class="secondary-text-input" name="state" placeholder="(Optional)"><br>
+                    </div>
+
+                    <div class = "secondary-unit">
+                        <label class = "secondary-label" for="zip">Zip code:</label><br>
+                        <input type="number" class="secondary-text-input" name="zip" placeholder="(Optional)"><br>
+                    </div>
+                </div>
+
+                <label class = "standard-payment-label" for="donation-amount">Donation Amount:</label><br>
+                <input type="number" class="standard-text-input" name="donation-amount" placeholder="$"><br>
+
+                <label class = "standard-label" for="donation-amount">How often do you want to make a donation?</label><br>
+                <div class = "payment-frequency">
+                    <div class = "radio-option">
+                        <input type="radio" id="one-time" name="frequency" value="one-time">
+                        <label class = "standard-label" for="one-time">One time</label><br>
+                    </div>
+                    <div class = "radio-option">
+                        <input type="radio" id="recurring" name="frequency" value="recurring">
+                        <label class = "standard-label" for="recurring">Monthly</label><br>
+                    </div>
+                    <div class = "radio-option">
+                        <input type="radio" id="annually" name="frequency" value="annually">
+                        <label class = "standard-label" for="annually">Annually</label><br>
+                    </div>
+                </div>
+
+                <div class = "donate-bottom-button-wrapper">
+                    <input class = "confirm-donation-button" type="submit" value="Donate!">
+                </div>
             </form>
         </div>
 	</body>
